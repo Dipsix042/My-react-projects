@@ -23,8 +23,8 @@ function App() {
   return (
     <>
     <ToDolist/>
-    {/* <MyComponent4 /> */}
-     {/* <UserGreeting isLoggedIn={true} username="ETI" />
+    <MyComponent4 />
+     <UserGreeting isLoggedIn={true} username="ETI" />
       <Button />
       <Profilepicture />
       <Button1 />
@@ -88,7 +88,7 @@ function App() {
     <MyComponent2 />
     <Counter1 />
       <Colorpicker />
-      <Counter/> */}
+      <Counter/>
     </>
   );
 }
