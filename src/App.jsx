@@ -14,6 +14,14 @@ import MyComponent2 from "./Mycomponent2.jsx";
 import MyComponent3 from "./Mycomponent3.jsx";
 import MyComponent4 from "./Mycomponent4.jsx";
 import ToDolist from "./Todolist.jsx"
+import Mycomponent5 from "./Mycomponent5.jsx";
+import Mycomponent6 from "./Mycomponent6.jsx";
+import Digitalclock from "./Digitalclock"
+
+
+
+
+
 
 
 
@@ -22,7 +30,10 @@ import ToDolist from "./Todolist.jsx"
 function App() {
   return (
     <>
-    <ToDolist/>
+    <Digitalclock/>
+    {/* <Mycomponent6/> */}
+    {/* <Mycomponent5/> */}
+    {/* <ToDolist/>
     <MyComponent4 />
      <UserGreeting isLoggedIn={true} username="ETI" />
       <Button />
@@ -88,7 +99,7 @@ function App() {
     <MyComponent2 />
     <Counter1 />
       <Colorpicker />
-      <Counter/>
+      <Counter/> */}
     </>
   );
 }

@@ -599,3 +599,52 @@ li {
   background: #2563eb;
   color: #fff;
 }
+/* Mycomponent5.css */
+
+.counters-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.counters-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  transition: color 0.3s ease;
+}
+
+.buttons-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btns {
+  background-color: #3949ab;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+.btns:hover {
+  background-color: #1e2e85;
+}
+
+.change-btns {
+  background-color: #0d7543;
+}
+
+.change-btns:hover {
+  background-color: #910f0f;
+}
