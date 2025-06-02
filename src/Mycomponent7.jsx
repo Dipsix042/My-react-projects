@@ -1,29 +1,32 @@
 import React, { useState, useEffect, useRef } from "react";
 
 function Mycomponent7() {
-  let [number, setnumber] = useState(0);
+  
+
+    const imputRef = useRef(null);
+
+    useEffect(() => {
+      console.log("COMPONENT RENDERED");
+    });
 
 
 
-
-
-  useEffect(() => {
-    console.log("COMPONENT RENDERED");
-  });
-
+    function handleclick() {
+       imputRef.current.focus();
+    }
 
 
 
+    return (
+      <div>
+          <button onClick={handleclick}>
+               Click me!
+          </button>
+          <imput ref={imputRef}/>
+        </div>
+    )
 
-  function handleclick() {
-    setNumber((n) => n + 1);
-  }
-
-
-
-
-  return <button onClick={handleclick}>Click me!</button>;
-}
+};
 
 
 
