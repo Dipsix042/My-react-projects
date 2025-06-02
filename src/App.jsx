@@ -17,6 +17,8 @@ import ToDolist from "./Todolist.jsx"
 import Mycomponent5 from "./Mycomponent5.jsx";
 import Mycomponent6 from "./Mycomponent6.jsx";
 import Digitalclock from "./Digitalclock"
+import ComponentA from "./ComponentA.jsx"  ;
+import Mycomponent7 from "./Mycomponent7.jsx"
 
 
 
@@ -30,7 +32,9 @@ import Digitalclock from "./Digitalclock"
 function App() {
   return (
     <>
-    <Digitalclock/>
+    <Mycomponent7/>
+    {/* <ComponentA/> */}
+    {/* <Digitalclock/> */}
     {/* <Mycomponent6/> */}
     {/* <Mycomponent5/> */}
     {/* <ToDolist/>

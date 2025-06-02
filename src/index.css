@@ -648,3 +648,22 @@ li {
 .change-btns:hover {
   background-color: #910f0f;
 }
+.box {
+  max-width: 300px;
+  margin: 2px ;
+  padding: 2rem 1.5rem;
+  background: #eaf6ff;
+  border-radius: 14px 5px 14px 5px;
+  border: 2px solid ;
+  box-shadow: 0 4px 16px rgba(79, 140, 255, 0.13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+border-color: #3501cf;
+}
+
+.box:hover {
+  background: #d0eaff;
+  box-shadow: 0 8px 24px rgba(79, 140, 255, 0.22);
+  transform: translateY(-2px) scale(1.03);
+}
