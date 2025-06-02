@@ -11,7 +11,7 @@ function Mycomponent7() {
 
 
 
-    function handleclick() {
+    function handleClick() {
        imputRef.current.focus();
     }
 
@@ -19,8 +19,8 @@ function Mycomponent7() {
 
     return (
       <div>
-          <button onClick={handleclick}>
-               Click me!
+          <button onClick={handleClick}>
+               Click Me!
           </button>
           <imput ref={imputRef}/>
         </div>
