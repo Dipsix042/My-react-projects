@@ -667,3 +667,55 @@ border-color: #3501cf;
   box-shadow: 0 8px 24px rgba(79, 140, 255, 0.22);
   transform: translateY(-2px) scale(1.03);
 }
+.stopwatch{
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: gray;
+  text-shadow: #222;
+  margin-bottom: 25px;
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: backgroung-color 0.5s ease;
+}
+.start-button{
+  background-color: rgb(49, 225, 55);
+  
+}
+.start-button:hover{
+  background-color: rgb(22, 128, 25);
+
+}
+.stop-button{
+  background-color: rgb(202, 40, 19);
+  
+}
+.stop-button:hover{
+  background-color: rgb(169, 42, 22);
+
+}
+.reset-button{
+  background-color: hsl(244, 80%, 52%);
+  
+}
+.reset-button:hover{
+  background-color: hsl(245, 79%, 35%);
+
+}
